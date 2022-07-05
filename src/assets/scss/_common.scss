@@ -1,0 +1,29 @@
+@import './mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: $lg;
+  margin: auto;
+}
+
+.global-header {
+  a {
+    cursor: pointer;
+    &:link, &:hover, &:active, &:visited {
+      color: #f8f8f8;
+      text-decoration: none;
+    }
+  }
+}

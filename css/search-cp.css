@@ -1,0 +1,32 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.global-header a {
+  cursor: pointer;
+}
+
+.global-header a:link, .global-header a:hover, .global-header a:active, .global-header a:visited {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+
+.search-wrap input {
+  border: 3px solid #A0AECD;
+}
+/*# sourceMappingURL=search-cp.css.map */
